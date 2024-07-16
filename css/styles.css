@@ -696,7 +696,7 @@ header nav ul li a:hover {
 }
 
 .contact-button.email:hover {
-    background: #b2ebf2;
+    background: #eeeed3;
 }
 
 .contact-button.whatsapp:hover {
@@ -704,7 +704,7 @@ header nav ul li a:hover {
 }
 
 .contact-button.phone:hover {
-    background: #ffe0b2;
+    background: #82deff;
 }
 
 .contact-map {
