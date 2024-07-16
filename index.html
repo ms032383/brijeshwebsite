@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="./images/Logo.png" alt="Company Logo" class="logo">
+                <h1 class="logo-text">B.R Compressor</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Recent">Recent Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleDrawer()">&#9776;</div>
+        </div>
+    </header>
+
+    <div id="drawer" class="drawer">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleDrawer()">&times;</a>
+        <a href="#home" onclick="toggleDrawer()">Home</a>
+        <a href="#about" onclick="toggleDrawer()">About</a>
+        <a href="#services" onclick="toggleDrawer()">Services</a>
+        <a href="#Recent" onclick="toggleDrawer()">Recent</a>
+        <a href="#contact" onclick="toggleDrawer()">Contact</a>
+    </div>
+
+    <section id="home">
+        <div class="home-container">
+            <div class="blur-overlay">
+                <div class="home-content">
+                    <div class="home-text">
+                        <h2>Hello There!</h2>
+                        <h1>B.R Compressor</h1>
+                        <h3>All Compressor Solutions</h3>
+                    </div>
+                    <div class="home-image">
+                        <img src="./images/person.png" alt="Person Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-left">
+                    <h2>About Me</h2>
+                    <!-- <img src="images/signature.png" alt="Signature" class="signature"> -->
+                </div>
+                <div class="about-right">
+                    <p>Hi, We are here to help you to solve your problems related to Air Compressor, Screw Compressor and all other types of Compressor.We also provide all the Compressor Spare Parts and do servicing of Compressor as well. We provide all the compressors like KG Ghosla type AB11 , AB20 2C35 Compressor spare parts and spare parts of IR C ompressor Atlas Copco ELGI and Chinese compressor spare parts are also available and we also do it servicing all other compressors spare parts are also available. We repair and deals with screw compressor as well we also repair dryer chiller and also provided we also provide AMC of the compressor.</p>
+                    <div class="experience-box">
+                        <h3>08</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="about-buttons">
+                <a href="#contact" class="btn hire-me"><img src="./images/hand.png" alt="Hire Icon"> Hire Me!</a>
+                <!-- <a href="cv.pdf" class="btn download-cv"><img src="images/cv-icon.png" alt="CV Icon"> Download CV</a> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services-container">
+            <div class="services-header">
+                <div class="bar"></div>
+                <h2>Service Offerings</h2>
+            </div>
+            <div class="services-list">
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="./images/graphic.png" alt="Graphic Design">
+                    <p>Parker Filter</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="./images/graphic.png" alt="Web Design">
+                    <p>Air Receiver Tank</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="./images/graphic.png" alt="UI Design">
+                    <p>Electronic & Electrical panel</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="images/graphic.png" alt="Interaction Design">
+                    <p>Screw Compressor</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="./images/graphic.png" alt="Graphic Design">
+                    <p>Piston Compressor</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="./images/graphic.png" alt="Web Design">
+                    <p>Installation of Air Pipe Line</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="./images/graphic.png" alt="UI Design">
+                    <p>DD, PD & Qd Filter</p>
+                </div>
+                <div class="service-item" onclick="scrollToContact()">
+                    <img src="images/graphic.png" alt="Interaction Design">
+                    <p>Heatless Air Dryer & Chiller Repair</p>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="services-list">
+
+        </div>
+    </div>
+    </section>
+    <!-- New Project  -->
+    <section id="start-project">
+        <div class="start-project-container">
+            <div class="start-project-left">
+                <img src="images/email.png" alt="Message Icon" class="message-icon">
+                <div class="vertical-bar"></div>
+                <div class="start-project-text">
+                    <h3>Starting New Project?</h3>
+                    <p>Get an estimate for the new project</p>
+                </div>
+            </div>
+            <div class="start-project-right">
+                <a href="#contact" class="btn hire-me"><img src="images/hand.png" alt="Hire Icon"> Hire Me!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Recent work part -->
+
+    <section id="Recent">
+        <div class="recent-works-container">
+            <div class="recent-works-header">
+                <div class="bar"></div>
+                <h2>Recent Works</h2>
+            </div>
+            <div class="recent-works-list">
+                <div class="recent-work-item" onclick="scrollToContact()">
+                    <img src="images/compressor.jpg" alt="Work 1">
+                    <div class="recent-work-content">
+                        <h3>Screw Air Compressor</h3>
+                        <p>A rotary screw air compressor is a type of air compressor which uses a rotary-type positive mechanism. Screw compressors can commonly be found where large volumes of high-pressure air are in need. When your application requires continuous air demand, a screw compressor is the way to go.</p>
+                    </div>
+                </div>
+                <div class="recent-work-item" onclick="scrollToContact()">
+                    <img src="images/compressor 2.jpg" alt="Work 2">
+                    <div class="recent-work-content">
+                        <h3>Air Compressor</h3>
+                        <p>Air compressors are devices that convert power into kinetic energy by compressing and pressurizing air. The compressed air can then be used for a variety of applications, such as powering tools, inflating tires, or operating pneumatic equipment.</p>
+                    </div>
+                </div>
+                <div class="recent-work-item" onclick="scrollToContact()">
+                    <img src="images/two.jpg" alt="Work 3">
+                    <div class="recent-work-content">
+                        <h3>Air oil Separator</h3>
+                        <p>For vehicles, air oil separators (AOS) provide a critical function in separating oil vapours from your air intake. If oil vapours pass through into the air intake of a vehicle, this can lead to oil loss, and also, it can cause problems for the performance of your vehicle.</p>
+                    </div>
+                </div>
+                <div class="recent-work-item" onclick="scrollToContact()">
+                    <img src="images/third.jpg" alt="Work 4">
+                    <div class="recent-work-content">
+                        <h3>Air Compressor</h3>
+                        <p>Air compressors are devices that convert power into kinetic energy by compressing and pressurizing air. The compressed air can then be used for a variety of applications, such as powering tools, inflating tires, or operating pneumatic equipment.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://maps.app.goo.gl/SaKJNe3bwZctbTHy7" class="btn hire-me"><img src="./images/contact_icon.png" alt="Hire Icon"> More Information!</a>
+        </div>
+        
+    </section>
+    <!-- Contact Section -->
+    
+
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <div class="bar"></div>
+                <h2>For Project Inquiry and Information</h2>
+                <h3>Contact Me</h3>
+            </div>
+            <div class="contact-content">
+                <div class="contact-buttons">
+                    <a href="mailto:desivines032383@gmail.com" class="contact-button email">
+                        <img src="images/email.png" alt="Email Icon">
+                        <span>Brijesh Rai</span>
+                    </a>
+                    <a href="https://wa.me/919582463393" class="contact-button whatsapp">
+                        <img src="images/whatsapp.png" alt="WhatsApp Icon">
+                        <span>Brijesh Rai</span>
+                    </a>
+                    <a href="tel:+919582463393" class="contact-button phone">
+                        <img src="images/messanger.png" alt="Phone Icon">
+                        <span>Brijesh Rai</span>
+                    </a>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://maps.google.com/maps?q=Street%20Number%204,%20near%20sector%203,%20Nahar%20Singh%20Colony,%20Sector%204,%20Sector%203,%20Faridabad,%20Haryana%20121004&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
